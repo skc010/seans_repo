@@ -6,13 +6,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
  
 @Controller
-@RequestMapping("/Michael")
-public class HelloMichael {
+@RequestMapping("/Steph")
+public class HelloSteph {
  
 	@RequestMapping(method = RequestMethod.GET)
 	public String printWelcome(ModelMap model) {
  
-		model.addAttribute("message", "Hey there Mr. West Virginia.");
+		model.addAttribute("message", "Hey thar pretty lady.");
 		return "hello";
  
 	}
